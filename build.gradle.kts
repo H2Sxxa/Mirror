@@ -137,7 +137,7 @@ artifacts {
 
 signing {
     useGpgCmd()
-    sign(configurations.archives.get())
+    sign(configurations.archives)
 }
 
 tasks {
